@@ -13,10 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-//không cần controller mà return trực tiếp view
-// Route::get('/', function () {
-//     return view('contact');
-// });
+
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
