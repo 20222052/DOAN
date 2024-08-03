@@ -1,179 +1,188 @@
-<!-- /*
-* Bootstrap 5
-* Template Name: Furni
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-<base href="/">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Untree.co">
-    <link rel="shortcut icon" href="favicon.png">
-
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap4" />
-
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link href="css/tiny-slider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | Blank Page</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="assets/dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="assets/plugins/summernote/summernote.min.css">
 </head>
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
 
-<body>
-
-    <!-- Start Header/Navigation -->
-    <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
-
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Furni<span>.</span></a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsFurni">
-                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li><a class="nav-link" href="/shop">Shop</a></li>
-                    <li><a class="nav-link" href="/about">About us</a></li>
-                    <li><a class="nav-link" href="/services">Services</a></li>
-                    <li><a class="nav-link" href="/blog">Blog</a></li>
-                    <li><a class="nav-link" href="/contact">Contact us</a></li>
-                </ul>
-
-                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-                    <li><a class="nav-link" href="/#"><img src="images/user.svg"></a></li>
-                    <li><a class="nav-link" href="/cart"><img src="images/cart.svg"></a></li>
-                </ul>
-            </div>
-        </div>
-
+  <header class="main-header">
+    <a href="assets/index2.html" class="logo">
+      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-lg"><b>Admin</b>LTE</span>
+    </a>
+    <nav class="navbar navbar-static-top">
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <!-- End Header/Navigation -->
-
-
-    @yield('main')
-
-    <!-- Start Footer Section -->
-    <footer class="footer-section">
-        <div class="container relative">
-
-            <div class="sofa-img">
-                <img src="images/sofa.png" alt="Image" class="img-fluid">
-            </div>
-
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="subscription-form">
-                        <h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-                        <form action="#" class="row g-3">
-                            <div class="col-auto">
-                                <input type="text" class="form-control" placeholder="Enter your name">
-                            </div>
-                            <div class="col-auto">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                            </div>
-                            <div class="col-auto">
-                                <button class="btn btn-primary">
-                                    <span class="fa fa-paper-plane"></span>
-                                </button>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row g-5 mb-5">
-                <div class="col-lg-4">
-                    <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
-                    <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
-
-                    <ul class="list-unstyled custom-social">
-                        <li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-                        <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-                        <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-8">
-                    <div class="row links-wrap">
-                        <div class="col-6 col-sm-6 col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact us</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-6 col-sm-6 col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Knowledge base</a></li>
-                                <li><a href="#">Live chat</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-6 col-sm-6 col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Our team</a></li>
-                                <li><a href="#">Leadership</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-6 col-sm-6 col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Nordic Chair</a></li>
-                                <li><a href="#">Kruzo Aero</a></li>
-                                <li><a href="#">Ergonomic Chair</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="border-top copyright">
-                <div class="row pt-4">
-                    <div class="col-lg-6">
-                        <p class="mb-2 text-center text-lg-start">Copyright &copy;<script>
-                                document.write(new Date().getFullYear());
-                            </script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
-                        </p>
-                    </div>
-
-                    <div class="col-lg-6 text-center text-lg-end">
-                        <ul class="list-unstyled d-inline-flex ms-auto">
-                            <li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
+  </header>
+  <aside class="main-sidebar">
+    <section class="sidebar">
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
-    </footer>
-    <!-- End Footer Section -->
+        <div class="pull-left info">
+          <p></p>
+          <a href=""><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <ul class="sidebar-menu">
+      <li>
+          <a href="{{route('category.index')}}">
+            <i class="fa fa-home"></i> <span>Dashboard</span>
+            <small class="label pull-right bg-green">Hot</small>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-th"></i> <span>Category</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('category.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('category.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-th"></i> <span>Products</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('product.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('product.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>User</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Blog</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Imployee</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Baner</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Comment</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Customer</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> Danh sách</a></li>
+            <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Thêm danh mục</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </aside>
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>@yield('title')</h1>
+    </section>
 
+    <section class="content">
+      <div class="box">
+        <div class="box-body">
+          @if(Session::has('error'))
+          <div class="alert alert-danger">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Lỗi!</strong> {{Session::get('error')}}
+          </div>
+          @endif
+          @if(Session::has('success'))
+          <div class="alert alert-success">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Ok!</strong> {{Session::get('success')}}
+          </div>
+          @endif
+            @yield('main')
+        </div>
+      </div>
+    </section>
+  </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/custom.js"></script>
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.3.3
+    </div>
+    <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer>
+
+</div>
+
+<script src="assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/fastclick/fastclick.js"></script>
+<script src="assets/plugins/summernote/summernote.min.js"></script>
+<script src="assets/dist/js/app.min.js"></script>
+<script src="assets/dist/js/demo.js"></script>
+<script>
+  // theem class description vaof textareare o form them moi san pham va form edit
+  $('.description').summernote({
+    height: 300
+  });
+</script>
 </body>
-
 </html>

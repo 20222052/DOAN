@@ -110,6 +110,9 @@ a {
     @media (min-width: 992px) {
       .hero .intro-excerpt {
         max-width: 450px; } }
+    @media (min-width: 992px) {
+      .hero .intro-excerpt_account {
+        max-width: max-content; } }
   .hero h1 {
     font-weight: 700;
     color: #ffffff;
@@ -709,3 +712,9 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+table.tab_purchase{
+  margin: 2px;
+  padding: 3px;
+  width: max-content;
+  border: #000000 ;
+}

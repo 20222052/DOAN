@@ -50,7 +50,7 @@
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="{{route('acount')}}"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link" href="{{route('account')}}"><img src="images/user.svg"></a></li>
 						<li><a class="nav-link" href="{{route('cart')}}"><img src="images/cart.svg"></a></li>
 					</ul>
 				</div>
@@ -78,10 +78,7 @@
 
 							<form action="#" class="row g-3">
 								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
+									<input name="comment" type="text" class="form-control" placeholder="Enter Comment">
 								</div>
 								<div class="col-auto">
 									<button class="btn btn-primary">

@@ -34,9 +34,13 @@ class HomeController extends Controller
     {
         return view('thankyou');
     }
-    public function acount()
+    public function account()
     {
-        return view('acount');
+        return view('account');
+    }
+    public function register()
+    {
+        return view('register');
     }
 
     /**
