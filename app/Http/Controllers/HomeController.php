@@ -42,6 +42,10 @@ class HomeController extends Controller
     {
         return view('register');
     }
+    public function product()
+    {
+        return view('product');
+    }
 
     /**
      * Display a listing of the resource.

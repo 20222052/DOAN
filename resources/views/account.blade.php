@@ -22,10 +22,11 @@
 	<div class="container">
 
 		<div class="block">
-			<h4>My Purchase</h4>
+			
 			<div class="row justify-content-center">
 				<div class="col-md-8 col-lg-8 pb-4">
-					<table class="tab_purchase">
+				<h4>My Purchase</h4>
+					<table class="tab_purchase table table-hover w-100">
 						<tr>
 							<th>Họ</th>
 							<th>Tên</th>
@@ -43,7 +44,6 @@
 							<td>Tuấn</td>
 							<td>0987654321</td>
 						</tr>
-
 					</table>
 				</div>
 

@@ -28,6 +28,7 @@ Route::get('/shop', [HomeController::class, 'shop'])->name('shop');
 Route::get('/thankyou', [HomeController::class, 'thankyou'])->name('thankyou');
 Route::get('/account', [HomeController::class, 'account'])->name('account');
 Route::get('/register', [HomeController::class, 'register'])->name('register');
+Route::get('/product', [HomeController::class, 'product'])->name('product');
 
 Route::group(['prefix'=>'admin'], function(){
     Route::get('/', [CategoryController::class, 'index'])->name('category.index');

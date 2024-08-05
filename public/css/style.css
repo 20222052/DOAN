@@ -715,6 +715,25 @@ textarea {
 table.tab_purchase{
   margin: 2px;
   padding: 3px;
-  width: max-content;
-  border: #000000 ;
+  border: 1px solid #198754;
+}
+div.pro_contents{
+  margin: 0;
+  display: flex;
+  
+}
+div.img_pro img{
+  width: 100%;
+}
+div.content_pro{
+  width: 50%;
+}
+
+div.content_pro button:hover{
+  background-color: #198754;
+  cursor: pointer;
+  color: white
+}
+div.content_pro button{
+  background-color: #3b5d50;
 }
